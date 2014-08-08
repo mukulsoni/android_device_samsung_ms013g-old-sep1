@@ -1,0 +1,4 @@
+# proprietary file list
+# bin/filename
+/bin/rild
+/lib/libril.so

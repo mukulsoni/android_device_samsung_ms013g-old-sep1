@@ -1,0 +1,56 @@
+[
+  {
+    "remote": "mukulsoni",
+    "repository": "android_device_samsung_qcom-common",
+    "target_path": "device/samsung/qcom-common"
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "mukulsoni",
+    "repository": "android_device_samsung_msm8226-common",
+    "target_path": "device/samsung/msm8226-common",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "mukulsoni",
+    "repository": "android_device_samsung_ms013g",
+    "target_path": "device/samsung/ms013g",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "mukulsoni",
+    "repository": "android_kernel_samsung_ms013g",
+    "target_path": "kernel/samsung/ms013g",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "mukulsoni",
+    "repository": "android_vendor_samsung_msm8226-common",
+    "target_path": "vendor/samsung/msm8226-common",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "mukulsoni",
+    "repository": "android_vendor_samsung_ms013g",
+    "target_path": "vendor/samsung/ms013g",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "repository": "CyanogenMod/android_hardware_qcom_display-caf-new",
+    "target_path": "hardware/apps/qcom_display-caf-new",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "repository": "CyanogenMod/android_hardware_qcom_camera",
+    "target_path": "hardware/qcom/camera",
+    "revision": "cm-11.0"
+  },
+   {
+    "remote": "github",
+    "repository": "CyanogenMod/android_packages_apps_SamsungServiceMode",
+    "target_path": "packages/apps/SamsungServiceMode",
+    "revision": "cm-11.0"
+    }
+]

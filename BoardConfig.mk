@@ -1,0 +1,30 @@
+-include device/samsung/msm8226-common/BoardConfigCommon.mk
+
+# inherit from the proprietary version
+-include vendor/samsung/ms013g/BoardConfigVendor.mk
+
+LOCAL_PATH := device/samsung/ms013g
+
+# Vendor Init
+TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_msm
+
+
+# Custom relese tools for unified devices
+TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/ms013g
+
+#bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
+
+#TWRP
+DEVICE_RESOLUTION := 720x1280
+TW_IGNORE_MAJOR_AXIS_0 := true
+
+# Board Partitions
+BOARD_BOOTIMAGE_PARTITION_SIZE := 10485760
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 10485760
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1866465280
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 5555010560
+BOARD_CACHEIMAGE_PARTITION_SIZE := 20971520
+BOARD_FLASH_BLOCK_SIZE := 131072
+TARGET_USERIMAGES_USE_EXT4 := true
