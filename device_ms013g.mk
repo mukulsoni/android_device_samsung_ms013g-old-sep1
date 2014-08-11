@@ -16,3 +16,7 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 $(call inherit-product, device/samsung/msm8226-common/keylayout/keylayout.mk)
 $(call inherit-product, vendor/samsung/ms013g/ms013g-vendor.mk)
+
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+PRODUCT_NAME := full_ms013g
+PRODUCT_DEVICE := ms013g
